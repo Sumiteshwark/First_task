@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div class="form-main">
+        <form id="fo" action="">
+            <input type="text" placeholder="Firstname" id="fname" value="" required> 
+            <input type="email" placeholder="Email address" required> 
+            <input type="password" placeholder="Password"> 
+            <label id="dob" for="dob">D.O.B</label>
+            <input class="db" name="dob" type="date" placeholder="dd-mm-yyyy"> 
+            <div class="g-main">
+            <label id="gender" for="Gen">Gender: </label>
+                <select name="Gen" class="sel">
+                    <option value="Gender" >Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select> 
+            </div>
+            <input onclick="call()" class="btn" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <h1 id="demo"></h1>
+    
+    <script src="./index.js">
+        
+    </script>
+</body>
+</html>

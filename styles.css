@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form{
+    background-color: rgb(51, 72, 118);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-top: 140px;
+    padding: 40px 20px 20px;
+    min-width: 500px;
+    max-width: 600px;
+}
+
+#dob{
+    text-align: center;
+    color: white;
+}
+
+.db{
+    padding-left: 43%;
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 7px 12px;
+    border-radius: 7px;
+    border: none;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+label,select{
+    margin-bottom: 5px;
+}
+
+#gender{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.sel{
+    padding: 3px 0;
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 5%;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: rgb(75, 245, 75);
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+#demo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(238, 102, 209);
+    width: 50%;
+    margin:40px auto;
+    box-shadow: 3px 0 12px 0 rgb(75, 245, 75);
+    border-radius: 7px;
+    opacity: 0.8;
+    max-width: 500px;
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    form{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    #demo{
+        width: 90%;
+    }
+
+    .db{
+        padding-left: 42%;
+    }
+}
